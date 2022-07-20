@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Tetris</title>
+    <title>Unity WebGL Player | Puzzle Lines</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Tetris</div>
+        <div id="unity-build-title">Puzzle Lines</div>
       </div>
     </div>
     <script>
@@ -56,14 +56,14 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Tetris Web Source.loader.js";
+      var loaderUrl = buildUrl + "/Puzzle_Lines.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Tetris Web Source.data.br",
-        frameworkUrl: buildUrl + "/Tetris Web Source.framework.js.br",
-        codeUrl: buildUrl + "/Tetris Web Source.wasm.br",
+        dataUrl: buildUrl + "/Puzzle_Lines.data.unityweb",
+        frameworkUrl: buildUrl + "/Puzzle_Lines.framework.js.unityweb",
+        codeUrl: buildUrl + "/Puzzle_Lines.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "FrankMontion",
-        productName: "Tetris",
+        productName: "Puzzle Lines",
         productVersion: "1.0",
         showBanner: unityShowBanner,
       };
